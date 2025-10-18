@@ -1603,8 +1603,8 @@ div.paginate-container li:nth-last-child(2) a:after {
 .publications {
     max-width: -webkit-calc(100% - (30px / 2));
     max-width: calc(100% - (30px / 2));
-    margin-top: 10px;
-    font-family: 'Roboto', sans-serif, Helvetica
+    margin: 10px auto; /* 顶部外边距10px，左右自动居中，底部0 */
+    font-family: 'Roboto', sans-serif, Helvetica;
 }
 
 .pub-list {
